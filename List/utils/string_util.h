@@ -27,5 +27,6 @@ public:
 	~string_util();
 
 public:
+	static std::string& trim_l(std::string &str);
 };
 
